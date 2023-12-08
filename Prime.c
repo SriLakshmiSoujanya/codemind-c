@@ -1,14 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int i,n,count=0;
+    int i,n,fc=0;
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
         if(n%i==0)
-        count++;
+        {
+            fc++;
+        }
     }
-    if(count==2){
+    if(fc==2){
         printf("Prime");
     }
     else{

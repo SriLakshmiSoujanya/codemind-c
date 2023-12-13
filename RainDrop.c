@@ -7,25 +7,28 @@ int main()
     {
         printf("PlingPlangPlong");
     }
-    else if(n%3==0 && n%5==0){
+    else if(n%3==0 && n%5==0)
+    {
         printf("PlingPlang");
     }
-    else if(n%3==0 && n%7==0){
+    else if(n%3==0 && n%7==0)
+    {
         printf("PlingPlong");
     }
-    else if(n%5==0 && n%7==0){
-        printf("PlangPlong");
-    }
-    else if(n%3==0){
+    else if(n%3==0)
+    {
         printf("Pling");
     }
-    else if(n%5==0){
+    else if(n%5==0)
+    {
         printf("Plang");
     }
-    else if(n%7==0){
+    else if(n%7==0)
+    {
         printf("Plong");
     }
-    else{
+    else
+    {
         printf("%d",n);
     }
 }
